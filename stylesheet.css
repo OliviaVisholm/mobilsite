@@ -1,0 +1,60 @@
+/*************** Reset *********************/
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@font-face {
+  font-family: "airmole";
+  src: url(webfontkit-20250904-052717/airmole_shaded-webfont.woff2),
+    format (".woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "bordeauxlight";
+  src: url("webfontkit-20250904-052717/bordeauxlight_regular-webfont.woff2"),
+    format(".woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: airmole;
+  font-size: 10rem;
+  color: #c323f7;
+  margin-bottom: 5rem;
+}
+h2 {
+  font-family: bordeauxlight;
+  font-size: 7rem;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  font-family: bordeauxlight;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-family: bordeauxlight;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+dl {
+  font-family: bordeauxlight;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+body {
+  background: linear-gradient(#f7c1f4, #f59890);
+}
