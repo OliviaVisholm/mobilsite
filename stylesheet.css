@@ -28,33 +28,34 @@ img {
 
 h1 {
   font-family: airmole;
-  font-size: 10rem;
+  font-size: 5rem;
   color: #c323f7;
   margin-bottom: 5rem;
 }
 h2 {
   font-family: bordeauxlight;
-  font-size: 7rem;
+  font-size: 4rem;
   margin-bottom: 3rem;
 }
 
 h3 {
   font-family: bordeauxlight;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 3rem;
 }
 
 p {
   font-family: bordeauxlight;
-  font-size: 4rem;
+  font-size: 2rem;
   margin-bottom: 3rem;
 }
 dl {
   font-family: bordeauxlight;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 3rem;
 }
 
 body {
   background: linear-gradient(#f7c1f4, #f59890);
 }
+
