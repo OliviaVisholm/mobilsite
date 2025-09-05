@@ -12,8 +12,8 @@ img {
 
 @font-face {
   font-family: "airmole";
-  src: url(webfontkit-20250904-052717/airmole_shaded-webfont.woff2),
-    format (".woff2");
+  src: url("webfontkit-20250904-052717/airmole_shaded-webfont.woff2"),
+    format(".woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -29,34 +29,45 @@ img {
 h1 {
   font-family: airmole;
   font-size: 3rem;
-  color: #c323f7;
-  margin-bottom: 5rem;
+  color: #78129a;
+  margin-bottom: 2rem;
+  margin-right: 1em;
 }
 h2 {
   font-family: bordeauxlight;
   font-size: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
   font-family: bordeauxlight;
-  font-size: 2rem;
-  margin-bottom: 3rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 p {
   font-family: bordeauxlight;
-  font-size: 1.8rem;
-  margin-bottom: 3rem;
-}
-dl {
-  font-family: bordeauxlight;
-  font-size: 1.8rem;
-  margin-bottom: 3rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 body {
   background: linear-gradient(#f7c1f4, #f59890);
+  padding: 1em;
 }
 
+section {
+  background-color: #ffdefd;
+}
 
+table {
+  width: 100%; /* make table full width */
+  border-collapse: collapse; /* merge borders together */
+}
+
+th,
+td {
+  border: 1px solid black; /* border for cells */
+  padding: 8px; /* space inside cells */
+  text-align: left; /* align text */
+}
